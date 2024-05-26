@@ -1,0 +1,306 @@
+main{
+    position: fixed;
+    
+}
+.position{
+    padding-top: -10px;
+    background-color: white;
+}
+
+/* BSM (ligo)*/
+.bsm{
+  font-size: 70px;
+  margin-left: 50px;
+  
+}
+
+.BSM{
+  font-size: 25px;
+  margin-left: 0px;
+  margin-top: -10px;
+}
+.garis-lurus {
+  width: 1348px;
+  margin-left: 0;
+  height: 0.5px;
+  margin-top: 7px;
+  background-color: #000; /* Warna hitam */
+}
+
+.container::after,.container::before{
+    content: "";
+    display: table;
+}
+.container::after{
+    clear: both;
+}
+.box{
+    float: left;
+    margin: 0 20px; 
+}
+.box1{
+    float: left;
+    margin-bottom: -200px;
+    margin-top: 35px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.box2{
+    float: left;
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: 25px;
+    margin-bottom: -200px;
+}
+.box3{
+    float: left;
+    font-size: 20px;
+    margin-bottom: -200px;
+    margin-left: 700px;
+    margin-top: 25px;
+}
+nav.u{
+    display: inline;
+    
+}
+a.navbar{
+    text-decoration: none;
+    color: black;
+    padding: 0px;  
+  }
+ul.p li.l{
+    list-style: none;
+    display: inline;
+    border: 0px;
+}
+
+li.l {
+    padding: 10px;
+    display: inline; 
+}
+
+.rotate {
+    text-align: center;
+    display: inline-block;
+    transform: rotate(90deg); /* Memutar elemen sebesar 90 derajat */
+    color: #FF9900;
+    font-size: 30px;
+    margin-left: 10px;
+}
+/* atas nav bsm dan sebelah bawah article */
+article.orange{
+    background-color: #FF9900;
+    width: 1348px;
+    height: 750px;
+}
+.lingkaran {
+    width: 200px; /* Sesuaikan ukuran lingkaran yang diinginkan */
+    height: 200px; /* Sesuaikan ukuran lingkaran yang diinginkan */
+    border-radius: 50%; /* Membuat sudut elemen menjadi lingkaran */
+    overflow: hidden; /* Pastikan gambar tidak melebihi batas lingkaran */
+}
+.plus{
+    width: 60px;
+    height: 60px;
+    margin-left: -60px;
+}
+.gambarorang{
+    margin-top: 160px;
+    margin-left: 100px;
+    width: 230px;
+    height: 230px;
+}
+.Syarat{
+    float: right;
+    margin-right: 80px;
+    margin-top: 160px
+}
+
+section.Syarat{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 15px;
+    padding: 15px 210px;   
+    font-size: 30px;    
+}
+
+.syar{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.Ketentuan{
+    width: 30pxx;
+    float: left;
+    height: 40px;
+    
+}
+
+.ubah{ 
+    float: left;
+    margin-left: 490px;
+    margin-top: -100px;
+}
+
+section.ubah{   
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 77px;   
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.ub {
+    text-decoration: none;
+    color: black;
+}
+
+.nama{   
+    float: left;    
+    height: 40px; 
+    margin-top: -9px;
+}
+
+.panduan{
+    float: right;
+    margin-top: -101px;
+    margin-right: 78px;
+}
+
+section.panduan{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    padding: 9px 90px;   
+    font-size: 25px;
+    text-align: center;
+}
+
+.pandu{
+    text-decoration: none;
+    color: black;   
+}
+
+img.duan{
+    float: left;    
+    height: 35px; 
+    width: 35px;
+    margin-right: 20px;
+}
+
+.kebijakan{
+    float: left;
+    margin-left: 490px;
+    margin-top: 20px;
+}
+
+section.kebijakan{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 49px;   
+    font-size: 25px;
+    text-align: center;
+}
+
+.kebi{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.privasi{
+    float: left;
+    height: 30px;
+    width: 30px;    
+    margin-right: 20px;
+}
+
+.pertanyaan{
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+
+section.pertanyaan{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 38px; 
+    font-size: 25px;
+    text-align: center;
+}
+
+.perta{
+    text-decoration: none;
+    color: black;
+}
+
+.umum{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.keluar{
+    float: right;
+    margin-top: 70px;
+    margin-right: 360px;
+    
+}
+
+section.keluar{
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 50px; 
+    font-size: 25px;
+    text-align: center;
+}
+
+.kel{
+    text-decoration: none;
+    color: black;
+}
+
+.luar{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.point{
+    float: left;
+}
+
+p span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h3.nama{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+h3.kota{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+article.putih{
+    background-color: white;
+    width: 1348px;
+    height: 750px;
+}
