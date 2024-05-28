@@ -1,13 +1,13 @@
 body{
-    width: 1200px;
+  width: 1200px;
 }
 
-.toggle {
-    cursor: pointer
+.toggle{
+  cursor: pointer
 }
 
 .margin-right {
-    margin-right: 4rem
+  margin-right: 4rem
 }
 
 .burger-line-top {
@@ -30,6 +30,8 @@ body{
 	margin: .4rem 0;
 	background-color: orange
 }
+
+
 /*yg diatas untuk humberger sedangkan yg bawah untuk side bar */
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -48,7 +50,7 @@ body{
     cursor: pointer;
   }
   .sidebar {
-    height: 100vh;
+    height: 100vh ;
     width: 500px !important;
     list-style: none;
     background-color: #3097af;
@@ -70,17 +72,15 @@ body{
   }
 .sidebar {
     height: 100%;
-    width: 200px;
+    width: 200px ;
     list-style: none;
     background-color: gray;
     /* tambahkan kode ini */
     position: fixed;
-    left: -500px;
-    transition: 0.5s;
-    
+    left: -600px;
+    transition: 0.5s;    
   }
   /* tambahkan selector .sidebar-open di css */
 .sidebar-open {
-    left: 0;
+  left: 0;
 }
-

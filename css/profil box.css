@@ -1,6 +1,5 @@
 main{
     position: fixed;
-    
 }
 .position{
     padding-top: -10px;
@@ -11,7 +10,6 @@ main{
 .bsm{
   font-size: 70px;
   margin-left: 50px;
-  
 }
 
 .BSM{
@@ -25,6 +23,15 @@ main{
   height: 0.5px;
   margin-top: 7px;
   background-color: #000; /* Warna hitam */
+}   
+
+section.row::after,section::before{
+    content: "";
+    display: table;
+}
+
+section.row::after{
+    clear: both;
 }
 
 .container::after,.container::before{
@@ -91,7 +98,7 @@ li.l {
 article.orange{
     background-color: #FF9900;
     width: 1348px;
-    height: 750px;
+    height: 800px;
 }
 .lingkaran {
     width: 200px; /* Sesuaikan ukuran lingkaran yang diinginkan */
@@ -280,27 +287,106 @@ section.keluar{
     margin-right: 20px;
 }
 
-.point{
-    float: left;
-}
-
-p span{
-    font-size: 20px;
-    margin-left: 10px;
-}
-
 h3.nama{
     margin-left: 150px;
-    margin-top: 40px;
+    margin-top: -20px;
+    font-size: 30px;
 }
 
 h3.kota{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 130px;
+    font-size: 30px;
 }
 
 article.putih{
     background-color: white;
     width: 1348px;
-    height: 750px;
+    height: 500px;
+    
+}
+
+img.col{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    float: left;
+    margin-left: 100px;
+}
+
+img.col1{
+    float: left;
+}
+
+.col1{
+    margin-top: -30px;
+}
+
+p.col{
+    color: #555555;
+    margin-top: 10px;
+    float: left;
+}
+
+p.col1{
+    font-size: 25px;
+    
+}
+
+.Partner{
+    text-align: center;
+    color: #555555;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+img.col2{
+    margin-top: 150px;
+    height: 280px;
+    width: 280px;
+    float: left;
+    margin: 0 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container3{
+    margin-left: 60px;
+}
+
+img.col2{
+    margin: 70px;
+}
+
+.col5{
+    width: 220px !important;
+}
+
+.col4{
+    margin-right: 35px;
+    margin-top: 65px;
+    float: right;
+}
+
+footer{
+    background-color: #696969;
+    width: 1348px;
+    height: 170px;
+    color: #FFFFFF;
+}
+
+.sosmed{
+    margin-left: 498px;
+    margin-top: 20px;
+}
+
+p.copyright{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+p.ikutikami{
+    font-size: 30px;
+    text-align: center !important;
 }
