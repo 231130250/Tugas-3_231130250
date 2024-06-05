@@ -1,9 +1,9 @@
 main{
-    position: fixed !important;
+  position: fixed;
 }
 .position{
-    padding-top: -10px;
-    background-color: white;
+  padding-top: -10px;
+  background-color: white;
 }
 
 body{
@@ -179,4 +179,9 @@ li.l {
     color: #FF9900;
     font-size: 30px;
     margin-left: 10px;
+}
+
+article{
+  background-color: 200px;
+  height: 5000px;
 }
