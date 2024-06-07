@@ -1,0 +1,65 @@
+
+.upload-section {
+    margin: 20px 0;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upload-label {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-label input {
+    display: none;
+}
+
+#image-preview {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#image-preview img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.garis{
+    border: 0.5px solid gray;
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #EFEAD6;
+    border-radius: 20px;
+    box-shadow: 0px 1px 0px 0px black;
+}
+
+.bawahdikitv2{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.kamerav2{
+    margin-top: 150px;
+}
+
+.kameratulis{
+    padding-top: 150px;
+}
+
+.mmmmm{
+    padding: 30px 0px 0px 50px;
+    font-size: 20px;
+    color: rgb(133, 138, 118);
+}

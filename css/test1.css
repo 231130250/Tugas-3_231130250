@@ -1,66 +1,83 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 60%;
-    margin: 50px auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
 }
 
-h1 {
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
     text-align: center;
 }
 
-.upload-area {
+.sampah-info {
+    margin: 20px 0;
+}
+
+.button-group {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px dashed #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin: 20px 0;
 }
 
-#imageUpload {
-    display: none;
-}
-
-.upload-area p {
-    margin: 0;
-    color: #333;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background: #28a745;
-    color: #fff;
+.btn {
+    background-color: #d4edda;
     border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
     cursor: pointer;
     font-size: 16px;
 }
 
-button:hover {
-    background: #218838;
-}
-
-#preview {
+.upload-section {
+    margin: 20px 0;
+    border: 2px dashed #ccc;
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.preview-image {
+.upload-label {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-label input {
+    display: none;
+}
+
+#image-preview {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#image-preview img {
+    margin: 10px;
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 1px solid #ddd;
-    padding: 5px;
 }

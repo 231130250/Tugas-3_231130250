@@ -360,11 +360,11 @@ p.col1{
 
 img.col2{
     margin-top: 150px;
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
     float: left;
     margin: 0 90px;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 0px;
 }
 
@@ -377,25 +377,35 @@ img.col2{
 }
 
 .col5{
-    width: 220px !important;
+    width: 200px !important;
+    height: 250px !important;
+    margin-left: 100px !important;
 }
 
 .col4{
-    margin-right: 35px;
-    margin-top: 65px;
+    margin-right: 80px;
+    margin-top: 80px;
+    width: 350px;
     float: right;
 }
 
 footer{
     background-color: #696969;
     width: 1348px;
-    height: 170px;
+    height: 250px;
     color: #FFFFFF;
 }
 
-.sosmed{
-    margin-left: 498px;
+.sosialmedia{
     margin-top: 20px;
+    padding-left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.sosialmedia111{
+    margin-left: 500px;
+    padding: 20px 0px;
 }
 
 p.copyright{
@@ -407,6 +417,7 @@ p.copyright{
 p.ikutikami{
     font-size: 30px;
     text-align: center !important;
+    padding-top: 20px;
 }
 
 /* TAMBAHAN */
