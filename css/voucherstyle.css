@@ -1,10 +1,10 @@
 body{
   margin: 0px;
-  width: 1490px;
+  width: 1487px;
 }
 .position{
   background-color: #FF9900;
-  width: 1490px;
+  width: 1487px;
 }
 .bsm{
   margin: 0px;
@@ -52,4 +52,20 @@ body{
   float: left;
   margin-left: -40px;
   margin-top: -5px;
+}
+.atas{
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 20px;
+  border-spacing: 20px;
+}
+
+th{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+th:hover{
+  border: 2px solid red;
 }
