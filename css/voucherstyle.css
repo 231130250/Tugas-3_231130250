@@ -1,0 +1,55 @@
+body{
+  margin: 0px;
+  width: 1490px;
+}
+.position{
+  background-color: #FF9900;
+  width: 1490px;
+}
+.bsm{
+  margin: 0px;
+  margin-left: 50px;
+  font-size: 40px;
+}
+.BSM{
+  margin: 0px;
+  margin-left: 21px;
+  padding: 5px;
+}
+.nav ul{
+  margin-left: 1100px;
+  margin-bottom: -58px;
+  text-align: center;
+}
+.nav li{
+  float: left;
+  margin: 0px;
+  list-style-type: none;
+}
+.notifikasi{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.bantuan{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.logobantuan{
+  position: absolute;
+  width: 30px;
+  margin-left: -40px;
+  margin-top: -5px;
+}
+.logonotif{
+  position: absolute;
+  width: 30px;
+  float: left;
+  margin-left: -40px;
+  margin-top: -5px;
+}
