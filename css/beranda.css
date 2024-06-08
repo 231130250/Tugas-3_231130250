@@ -181,7 +181,7 @@ img.gambar1{
     align-items: center;
     height: 100px;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 .wadah-utama {
@@ -189,7 +189,7 @@ img.gambar1{
 }
 
 .judul-utama {
-    margin-bottom: 20px;
+    margin-top: 200px;
 }
 
 .layanan-bagian {
@@ -197,6 +197,7 @@ img.gambar1{
     justify-content: center;
     gap: 20px;
 }
+
 
 .tautan-penjemputan, .tautan-laporan, .tautan-daur-ulang {
     text-decoration: none;
