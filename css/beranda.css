@@ -174,3 +174,57 @@ img.gambar1{
     text-decoration: underline;
 }
 
+.tambahh {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.wadah-utama {
+    text-align: center;
+}
+
+.judul-utama {
+    margin-top: 200px;
+}
+
+.layanan-bagian {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.tautan-penjemputan, .tautan-laporan, .tautan-daur-ulang {
+    text-decoration: none;
+}
+
+.kartu-penjemputan, .kartu-laporan, .kartu-daur-ulang {
+    width: 120px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.kartu-penjemputan:hover, .kartu-laporan:hover, .kartu-daur-ulang:hover {
+    transform: scale(1.05);
+}
+
+.ikon-penjemputan, .ikon-laporan, .ikon-daur-ulang {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.deskripsi-penjemputan, .deskripsi-laporan, .deskripsi-daur-ulang {
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
