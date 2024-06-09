@@ -144,19 +144,19 @@ td, th{
   font-weight: normal;
   
 }
-.historypick img{
+.historysph img{
   width: 60px;
-  margin-top: -25px;
+  margin-top: -10px;
   padding: 20px;
 }
 .tagihan{
   font-weight: bold;
   width: 150px;
 }
-.detail{
+.detail1{
   text-align: center;
   color: #FF9900;
-  padding-left: 250px;
+  padding-left: 557px;
 }
 
 .tanggal{
@@ -164,13 +164,13 @@ td, th{
   padding-left: 25px;
   padding-right: 20px;
 }
-.katego{
+.katego1{
   width: 55px;
+  height: 24px;
   border-radius: 5px;
   color: green;
   background-color: #7FDCAB;
   padding: 5px;
-  
 }
 .kode{
   width: 40px;
@@ -179,7 +179,11 @@ td, th{
 td{
   color: #696969;
 }
-b{
+.detail1 b{
+  color: grey;
+  font-weight: normal;
+}
+.detail1 .det1 {
   color: black;
 }
 
