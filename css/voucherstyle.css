@@ -156,7 +156,7 @@ td, th{
 .detail1{
   text-align: center;
   color: #FF9900;
-  padding-left: 557px;
+  padding-left: 633px;
 }
 
 .tanggal{
@@ -187,4 +187,51 @@ td{
   color: black;
 }
 
+.history2{
+  width: 1400px;
+  margin-left: 40px;
+  text-align: left;
+  border: 2px solid grey;
+  background-color: #EFEAD6;
+  border-radius: 10px;
+  border-bottom-width: 3px;
+  font-size: 20px;
+  display: block;
+  margin-top: 60px;
+}
+td, th{
+  font-weight: normal;
+  
+}
+.historylpr img{
+  width: 60px;
+  margin-top: -10px;
+  padding: 20px;
+}
+.tagihan{
+  font-weight: bold;
+  width: 70px;
+}
+.detail2{
+  text-align: center;
+  color: #FF9900;
+  padding-left: 625px;
+}
 
+.tanggal{
+  width: 110px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.katego2{
+  width: 55px;
+  height: 24px;
+  border-radius: 5px;
+  color: #F88922;
+  background-color: rgba(255, 199, 0, 40%); 
+  padding: 5px;
+}
+.kode{
+  width: 40px;
+  padding-left: 30px
+}
