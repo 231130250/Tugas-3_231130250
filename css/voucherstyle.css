@@ -1,6 +1,5 @@
 body{
   margin: 0px;
-  width: 1487px;
 }
 .position{
   background-color: #FF9900;
@@ -10,11 +9,13 @@ body{
   margin: 0px;
   margin-left: 50px;
   font-size: 40px;
+  font-family: "Inika", serif;
 }
 .BSM{
   margin: 0px;
   margin-left: 21px;
   padding: 5px;
+  font-family: "Imprima", sans-serif;
 }
 .nav ul{
   margin-left: 1100px;
