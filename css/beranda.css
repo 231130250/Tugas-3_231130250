@@ -179,9 +179,10 @@ img.gambar1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 200px;
     margin: 0;
     background-color: #fff;
+    margin-top: 50px;
 }
 
 .wadah-utama {
@@ -189,13 +190,17 @@ img.gambar1{
 }
 
 .judul-utama {
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: -900px;
+    font-size: 36px;
 }
 
 .layanan-bagian {
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: 100px;
+    height: 110px;
 }
 
 
@@ -204,13 +209,15 @@ img.gambar1{
 }
 
 .kartu-penjemputan, .kartu-laporan, .kartu-daur-ulang {
-    width: 120px;
-    padding: 20px;
-    background-color: #fff;
+    width: 250px;
+    padding: 50;
+    background-color: #EFEAD6;
     border: 1px solid #ccc;
     border-radius: 8px;
     text-align: center;
     transition: transform 0.3s;
+    margin-top: 100px;
+
 }
 
 .kartu-penjemputan:hover, .kartu-laporan:hover, .kartu-daur-ulang:hover {
@@ -218,13 +225,43 @@ img.gambar1{
 }
 
 .ikon-penjemputan, .ikon-laporan, .ikon-daur-ulang {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .deskripsi-penjemputan, .deskripsi-laporan, .deskripsi-daur-ulang {
     margin: 0;
     font-weight: bold;
     color: black;
+}
+.jadwall{
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 500px;
+    margin: 0;
+    background-color: #fff;
+    margin-top: 300px;
+}
+.baruu{
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -100px;
+    margin-right: 300px;
+    width: 200px;
+}
+.jadul{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 1000px;
+    text-align: left;
+}
+.gambar-jadwal{
+    width: 600px;
+    height: 300px;
+    margin-top: 200px;
+    margin-right: 300px;
 }
