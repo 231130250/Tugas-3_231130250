@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pickup</title>
     <link rel="stylesheet" href="../css/pickup.css">
     <link rel="stylesheet" href="../css/pickup1.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
@@ -92,6 +93,42 @@
     </section>    
     <script src="../js/pickup.js"></script>
     <p class="mmmmm">Dapatkan bonus dari hasil penjualan sampahmu untuk jenis sampah tertentu</p>
-    <p class="informasisampah"><b>Informasi Sampah</b></p>
-</body>
-</html>
+    <section class="bungkuss">
+        <article class="containerr">
+            <h2>Informasi Penjemputan</h2>
+            
+            <form>
+                <article>
+                    <label for="phone">Alamat:</label>
+                    <input type="text" id="phone" name="phone" value="No. Ponsel: 082399423712" >
+                </article>
+
+                <article class="form-group lbll">
+                    <label for="address"></label>
+                    <textarea class="tulis" id="address" name="address" placeholder=", , , ,"></textarea>
+                </article>
+        
+                <article class="form-group ppppppppppxxxxx">
+                    <p for="pickup-date"><span class="tanggaljemput">Tanggal Penjemputan:</span></p>
+                    <input type="date" id="pickup-date" name="pickup-date">
+                </article>
+
+                <article class="form-group">
+                    <select id="pickup-time" name="pickup-time"  >
+                        <option value="Waktu">Waktu Penjemputan</option>
+                        <option value="9am">Pagi - 9 AM</option>
+                        <option value="10am">Pagi - 10 AM</option>
+                        <option value="2pm">Siang - 2 PM</option>
+                        <option value="5pm">Sore - 5 PM</option>
+                    </select>
+                </article>
+
+                <h3>Informasi Tambahan <span class="optional">Opsional</span></h3>
+                <article class="form-group">
+                    <textarea id="message" name="message" placeholder="Ketikkan pesan tambahan..."></textarea>
+                </article>
+
+                <button class="enterrr" type="submit"><img class="gambarenter" src="../picture/enter.png" alt="enter"><span class="pickupsampah"> Pickup Sampah</span></button>
+            </form>
+        </article>
+    </section>
