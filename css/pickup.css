@@ -1,6 +1,7 @@
 main{
     position: fixed;
     border-bottom: 2px solid gray;
+    width: 1348px;
   }
   .position{
     padding-top: -10px;
