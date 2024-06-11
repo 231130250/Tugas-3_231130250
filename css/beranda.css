@@ -8,7 +8,7 @@
     text-align: left;
     background-color: orange;
     height: 780px;
-    width: 1320px;
+    width: 1315px;
 }
 .hero-content{
     width: 100% !important;
@@ -134,7 +134,7 @@ img.gambar1{
 
 }
 
-.footer {
+.olah {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -356,4 +356,111 @@ img.gambar1{
     .main-news {
         flex-direction: column;
     }
+}
+.talaca img{
+    margin-top: 5px;
+    height: 50%;
+
+}
+article.putih{
+    background-color: white;
+    width: 1348px;
+    height: 500px;
+    
+}
+
+img.col{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    float: left;
+    margin-left: 100px;
+}
+
+img.col1{
+    float: left;
+}
+
+.col1{
+    margin-top: -30px;
+}
+
+p.col{
+    color: #555555;
+    margin-top: 10px;
+    float: left;
+}
+
+p.col1{
+    font-size: 25px;
+    
+}
+
+.Partner{
+    text-align: center;
+    color: #555555;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+img.col2{
+    margin-top: 150px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 0 90px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.container3{
+    margin-left: 60px;
+}
+
+img.col2{
+    margin: 70px;
+}
+
+.col5{
+    width: 200px !important;
+    height: 250px !important;
+    margin-left: 100px !important;
+}
+
+.col4{
+    margin-right: 80px;
+    margin-top: 80px;
+    width: 350px;
+    float: right;
+}
+
+footer{
+    background-color: #696969;
+    width: 1348px;
+    height: 250px;
+    color: #FFFFFF;
+}
+
+.sosialmedia{
+    margin-top: 20px;
+    padding-left: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.sosialmedia111{
+    margin-left: 500px;
+    padding: 20px 0px;
+}
+
+p.copyright{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+p.ikutikami{
+    font-size: 30px;
+    text-align: center !important;
+    padding-top: 20px;
 }
