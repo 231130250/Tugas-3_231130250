@@ -13,7 +13,7 @@
 .hero-content{
     width: 100% !important;
 }
-.hero h2{font-size: 42px;
+.hero h2{font-size: 50px;
 margin-bottom: 5px;
 font-style: bold;
 
@@ -22,7 +22,8 @@ font-style: bold;
 
 .bawahdikit{
     float: left;
-    margin-top: 400px;
+    margin-top: 300px;
+    margin-left: 80px;
 }
 
 .hero-content p{
@@ -243,25 +244,116 @@ img.gambar1{
     margin: 0;
     background-color: #fff;
     margin-top: 300px;
+    width: 1320px;
 }
 .baruu{
-    margin-top: 150px;
+    margin-top: 120px;
     font-size: 30px;
-    font-weight: bold;
-    margin-left: -100px;
-    margin-right: 300px;
-    width: 200px;
+    margin-left: -670px;
+    width: 500px;
 }
 .jadul{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
     width: 1000px;
-    text-align: left;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: -120px;
+    
+    display: inline-block;
+    
 }
 .gambar-jadwal{
     width: 600px;
     height: 300px;
     margin-top: 200px;
     margin-right: 300px;
+}
+
+.news-section {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.news-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.news-nav {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.news-nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+.berita{
+    margin-top: 20px;
+}
+.news-nav a:hover {
+    text-decoration: underline;
+}
+
+
+.main-news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 50px;
+}
+
+.main-news article {
+    flex: 1 1 45%;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-news img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.main-news h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+
+.other-news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.other-news article {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.other-news img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.other-news h4 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+
+@media (max-width: 768px) {
+    .main-news {
+        flex-direction: column;
+    }
 }
