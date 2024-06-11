@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pickup</title>
+    <link rel="stylesheet" href="../css/overlaytest.css">
     <link rel="stylesheet" href="../css/pickup.css">
     <link rel="stylesheet" href="../css/pickup1.css">
     <link rel="stylesheet" href="../css/navbar.css">
@@ -64,7 +65,23 @@
     </main>
     <article class="hitam"></article>
     <article class="test">
-        <p class="bawahdikit">Order layanan pickup, kolektor akan segera menjemput sampahmu. Lihat panduan berat sampah <a href="#" class="overlay">di sini</a></p>
+        <p class="bawahdikit">Order layanan pickup, kolektor akan segera menjemput sampahmu. Lihat panduan berat sampah <span id="clickableText">di sini</span>
+        <section id="overlay">
+            <section id="overlayContent">
+                <p class="overlay111">KETENTUAN BERAT</p><br>
+                <ul>
+                    <ul>
+                        <li class="liover">
+                            Berat dibawah 5kg mungkin saja kamu akan dikenakan biaya tambahan
+                        </li>
+                        <li class="liover liover222">
+                            Berat dibawah 10kg dapat ditukarkan menadi point
+                        </li>
+                    </ul>
+                </ul>
+            </section>
+        </section>
+        <script src="../js/overlaytest.js"></script></p>
         <p class="Informas kiridikit">Informasi Sampah</p>
         <p class="kiridikit besardikit">Pilih jenis dan masukkan perkiraan berat sampah. Tidak ada batasan berat minimal penjemputan</p>
         <section class="sampahorganik222">
