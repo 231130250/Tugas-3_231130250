@@ -1,25 +1,25 @@
 main{
   position: fixed;
   border-bottom: 2px solid gray;
-  width: 1348px;
+  width: 100%;
 }
 .position{
   padding-top: -10px;
   background-color: white;
 }
 
-body{
+/* body{
   width: 1348px;
-}
+} */
   
 .toggle{
   cursor: pointer
 }
-  
+/*   
 .margin-right {
   margin-right: 4rem
 }
-  
+   */
 .burger-line-top {
   width: 2.500rem;
   height: .2rem;
@@ -94,7 +94,7 @@ body{
     left: 0;
   }
   
-.bsm{
+  .bsm{
     font-size: 70px;
     margin-left: 50px;
     margin-top: -18px;

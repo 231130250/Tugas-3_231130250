@@ -6,7 +6,7 @@
     background-image: url(../picture/bacground.png);
     background-size: 1348px;
     background-size: cover;
-    width: 1348px;
+    /* width: 1348px; */
     height: 800px;
 } 
 img.col{
@@ -87,12 +87,12 @@ svg text {
     margin-top: 20px;
     width: 130px;
     height: 40px;
-    margin-left: 185px;
+    margin-left: 338px;
 }
 
 .slide2{
     background-color: white;
-    width: 1348px;
+    /* width: 1348px; */
 }
 
 .slide2 h1{
@@ -120,7 +120,7 @@ svg text {
 }
 .tes{
     background-color: rgba(248, 137, 34, 20%);
-    width: 1268px;
+    /* width: 1268px; */
     height: 800px;
     margin-left: 40px;
     margin-right: 40px;
@@ -154,34 +154,7 @@ svg text {
     margin-left: 40px;
     height: 0px;
 }
-.bsm1{
-    font-size: 30px;
-    padding: 5px;
-    margin-top: 0px;
-    font-weight: 800;
-}
 
-.bsm2{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: "Inika", serif;
-    font-style: normal;
-}
-
-.BSM2{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: "Imprima", sans-serif;
-    font-style: normal;
-}
-.BSM1{
-    font-size: 15px;
-    margin-top: -12px;
-    width: 170px;
-    padding-bottom: 10px;
-}
 .cer{
     background-color: rgba(253, 141, 9, 0.3);;
 }
@@ -298,34 +271,7 @@ svg text {
     margin-left: 40px;
     height: 0px;
 }
-.bsm1{
-    font-size: 30px;
-    padding: 5px;
-    margin-top: 0px;
-    font-weight: 800;
-}
 
-.bsm2{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: "Inika", serif;
-    font-style: normal;
-}
-
-.BSM2{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: "Imprima", sans-serif;
-    font-style: normal;
-}
-.BSM1{
-    font-size: 15px;
-    margin-top: -12px;
-    width: 170px;
-    padding-bottom: 10px;
-}
 .cer{
     background-color: rgba(253, 141, 9, 0.3);;
 }
@@ -443,34 +389,7 @@ svg text {
     margin-left: 40px;
     height: 0px;
 }
-.bsm1{
-    font-size: 30px;
-    padding: 5px;
-    margin-top: 0px;
-    font-weight: 800;
-}
 
-.bsm2{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: "Inika", serif;
-    font-style: normal;
-}
-
-.BSM2{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-family: "Imprima", sans-serif;
-    font-style: normal;
-}
-.BSM1{
-    font-size: 15px;
-    margin-top: -12px;
-    width: 170px;
-    padding-bottom: 10px;
-}
 .cer2{
     background-color: rgba(253, 141, 9, 0.3);;
 }

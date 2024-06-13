@@ -1,24 +1,24 @@
 main{
     position: fixed;
     border-bottom: 2px solid gray;
-    width: 1348px;
+    /* width: 100%; */
   }
   .position{
     padding-top: -10px;
     background-color: white;
   }
   
-  body{
-    width: 1348px;
-  }
+  /* body{
+    width: 100%;
+  }  */
     
   .toggle{
     cursor: pointer
   }
     
-  .margin-right {
+  /* .margin-right {
     margin-right: 4rem
-  }
+  } */
     
   .burger-line-top {
     width: 2.500rem;

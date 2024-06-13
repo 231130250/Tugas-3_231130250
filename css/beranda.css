@@ -1,24 +1,18 @@
 
 .hero {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
+    
+    /* padding: 20px; */
     height: 600px;
-    text-align: left;
     background-color: orange;
     height: 780px;
-    width: 1315px;
+    
 }
-.hero-content{
-    width: 100% !important;
-}
+
 .hero h2{font-size: 50px;
 margin-bottom: 5px;
 font-style: bold;
 
 }
-
 
 .bawahdikit{
     float: left;
@@ -32,12 +26,12 @@ font-style: bold;
     color: white;}
 
 img.gambar1{
-    width: 815px;
+    width: 810px;
     float: right;
-    height: 640px;
-    margin-right: -20px;
-    height: 750px;
-    margin-top: 70px;
+    height: 818px;
+    margin-right: 0px;
+    margin-top: -36px;
+    
 }
 
 
@@ -54,11 +48,11 @@ img.gambar1{
     font-style: normal;
     
   }
+
   .bodyyyx {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -70,9 +64,8 @@ img.gambar1{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1320px;
     width: 100%;
-    display: flex;
+    display: flex; 
 }
 
 .aside {
@@ -89,7 +82,6 @@ img.gambar1{
 }
 
 .image {
-    width: 100%;
     border-radius: 8px;
     margin-bottom: 20px;
 }
@@ -238,13 +230,14 @@ img.gambar1{
     color: black;
 }
 .jadwall{
+    padding: 1px solid black;
     font-family: Arial, sans-serif;
     display: flex;
     height: 500px;
     margin: 0;
     background-color: #fff;
     margin-top: 300px;
-    width: 1320px;
+    width: 1320px; 
 }
 .baruu{
     margin-top: 120px;
@@ -256,10 +249,10 @@ img.gambar1{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
-    width: 1000px;
+    /* width: 1000px; */
     text-align: center;
     margin-top: 70px;
-    margin-left: -120px;
+    margin-left: 25px;
     
     display: inline-block;
     
@@ -364,7 +357,7 @@ img.gambar1{
 }
 article.putih{
     background-color: white;
-    width: 1348px;
+    /* width: 1348px; */
     height: 500px;
     
 }
@@ -436,7 +429,7 @@ img.col2{
 
 footer{
     background-color: #696969;
-    width: 1348px;
+    /* width: 1348px; */
     height: 250px;
     color: #FFFFFF;
 }
