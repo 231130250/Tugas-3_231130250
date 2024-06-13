@@ -1,7 +1,7 @@
 main{
     position: fixed;
     border-bottom: 2px solid gray;
-    width: 1348px;
+    width: 100%;
 }
 .position{
     padding-top: -10px;
@@ -116,7 +116,7 @@ li.l {
 /* atas nav bsm dan sebelah bawah article */
 article.orange{
     background-color: #FF9900;
-    width: 1348px;
+    /* width: 1348px; */
     height: 800px;
 }
 .lingkaran {
@@ -320,7 +320,7 @@ h3.kota{
 
 article.putih{
     background-color: white;
-    width: 1348px;
+    /* width: 1348px; */
     height: 500px;
     
 }
@@ -392,7 +392,7 @@ img.col2{
 
 footer{
     background-color: #696969;
-    width: 1348px;
+    /* width: 1348px; */
     height: 250px;
     color: #FFFFFF;
 }

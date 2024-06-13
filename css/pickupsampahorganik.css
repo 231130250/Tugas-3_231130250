@@ -65,13 +65,15 @@ input[type=number] {
 }
 
 button {
-    width: 50%;
+    width: 100%;
     background-color: #28a745;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
 }
 
 button:hover {
@@ -176,4 +178,10 @@ button:hover {
 .lannnn{
     font-size: 20px;
     color: white;
+}
+
+.pickupppppppp{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
 }

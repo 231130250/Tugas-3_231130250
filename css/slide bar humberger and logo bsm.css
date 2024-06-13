@@ -1,14 +1,14 @@
-body{
+/* body{
   width: 1348px;
-}
+} */
 
 .toggle{
   cursor: pointer
 }
 
-.margin-right {
+/* .margin-right {
   margin-right: 4rem;
-}
+} */
 
 .burger-line-top {
   width: 2.500rem;
