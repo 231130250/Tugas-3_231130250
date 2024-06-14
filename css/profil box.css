@@ -403,8 +403,12 @@ footer{
 }
 
 .sosialmedia111{
-    margin-left: 570px;
+    margin-left: 550px;
     padding: 20px 0px;
+}
+
+.sosmed{
+    list-style: none;
 }
 
 p.copyright{
@@ -552,3 +556,4 @@ p.ikutikami{
     background-color: rgba(255, 153, 0, 0.5) ;
     margin-top: 20px;
   }
+
