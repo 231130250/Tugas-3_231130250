@@ -436,7 +436,6 @@ img.col2{
 
 footer{
     background-color: #696969;
-    /* width: 1348px; */
     height: 250px;
     color: #FFFFFF;
 }
@@ -446,6 +445,7 @@ footer{
     padding-left: 50px;
     width: 50px;
     height: 50px;
+    
 }
 
 .sosialmedia111{
