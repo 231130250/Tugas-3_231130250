@@ -1,4 +1,7 @@
-
+.atur{
+    overflow-x: hidden;
+    width: 1348px;
+}
 .hero {
     display: flex;
     justify-content: flex-start;
@@ -8,7 +11,7 @@
     text-align: left;
     background-color: orange;
     height: 780px;
-    width: 1315px;
+    width: 1348px;
 }
 .hero-content{
     width: 100% !important;
