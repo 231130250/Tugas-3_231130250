@@ -1,7 +1,17 @@
+/* .fixedd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    
+} */
+
 .fixed{
     position: fixed;
     border-bottom: 2px solid gray;
     width: 100%;
+    z-index: 1000;
 }
 .position{
     padding-top: -10px;
@@ -87,6 +97,7 @@ section.row::after{
 }
 nav.u{
     display: inline;
+
     
 }
 a.navbar{
