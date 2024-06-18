@@ -1,7 +1,18 @@
+
+/* .fixedd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    
+} */
+
 .fixed{
     position: fixed;
     border-bottom: 2px solid gray;
     width: 100%;
+    z-index: 1000;
 }
 .position{
     padding-top: -10px;
@@ -87,6 +98,7 @@ section.row::after{
 }
 nav.u{
     display: inline;
+
     
 }
 a.navbar{
@@ -360,6 +372,7 @@ p.col1{
 }
 
 img.col2{
+    
     margin-top: 150px;
     width: 250px;
     float: left;
@@ -521,7 +534,7 @@ p.ikutikami{
     width: 120px;
     height: 100px;
     padding: 53px 67.5px;
-    margin-top: -1px;
+    margin-top: -210px;
     margin-right: 2px;
     border-bottom: 2px solid silver;
   }

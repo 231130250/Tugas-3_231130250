@@ -53,10 +53,10 @@
 .kamerav2{
     margin-top: 150px;
 }
-
+/* 
 .kameratulis{
     padding-top: 150px;
-}
+} */
 
 .mmmmm{
     padding: 30px 0px 0px 50px;
@@ -136,7 +136,7 @@ textarea {
     height: 200px;
 }
 
-button {
+button.enterrr {
     background-color: #ffa600b6;
     color: #fff;
     border: none;
@@ -148,10 +148,10 @@ button {
     cursor: pointer;
     border-radius: 8px;
     margin-top: 10px;
-    margin-left: 1050px;
+    margin-left: 1200px;
 }
 
-button:hover {
+button.enterrr:hover {
     background-color: #ff8c00;
 }
 
