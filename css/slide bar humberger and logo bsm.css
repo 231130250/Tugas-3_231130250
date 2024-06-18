@@ -103,9 +103,11 @@
 @media only screen and (min-width: 992px) {
 
 }
+@media only screen and (max-width: 1476px) {
 
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1230px) {
 /* .u {
     float: left; 
     margin-left: 0; 

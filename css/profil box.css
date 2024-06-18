@@ -1,3 +1,4 @@
+
 /* .fixedd{
     position: fixed;
     top: 0;
@@ -371,6 +372,7 @@ p.col1{
 }
 
 img.col2{
+    
     margin-top: 150px;
     width: 250px;
     float: left;
@@ -532,7 +534,7 @@ p.ikutikami{
     width: 120px;
     height: 100px;
     padding: 53px 67.5px;
-    margin-top: -1px;
+    margin-top: -210px;
     margin-right: 2px;
     border-bottom: 2px solid silver;
   }

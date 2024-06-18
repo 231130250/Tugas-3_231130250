@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pickup</title>
     <link rel="stylesheet" href="../css/overlaytest.css">
+    <link rel="website icon" type="png" href="../picture/BSM.png">
     <link rel="stylesheet" href="../css/pickup.css">
     <link rel="stylesheet" href="../css/pickup1.css">
     <link rel="stylesheet" href="../css/navbar.css">
@@ -26,11 +27,11 @@
         <section class="position">
             <nav >
                 <ul class="sidebar">
-                    <li><a class="profil1 " href="#"><img class="lingkaran11 gambarorang1" src="../picture/images.jpg" alt="profil1"><p class="profil2">Chairul</p><p class="profil22">Medan Kota</p><p  class=" point444"><b><img class="gambarcol" src="../picture/logo point.png" alt="logo point"><span class="point333">127 Points</span></b></p></a></li>
-                    <li><a class="picup samping" href="#"><img class="pickup1" src="../picture/navbar pick up.png" alt="pickup"><img class="reycle1" src="../picture/navbar reycle.png" alt="reycle"></a></li>
-                    <li><a class="tagihan samping" href="#"><img class="tagihan1" src="../picture/navbar tagihan sampah.png" alt="Tagihan Sampah"><img src="../picture/navbar report.png" alt="report" class="report1"></a></li>
-                    <li><a class="another" href="#">Another Account</a></li>
-                    <li><a class="another1" href="#">Loght Out</a></li>
+                    <li><a class="profil1 " href="PROFIL.html"><img class="lingkaran11 gambarorang1" src="../picture/images.jpg" alt="profil1"><p class="profil2">Chairul</p><p class="profil22">Medan Kota</p><p  class=" point444"><b><img class="gambarcol" src="../picture/logo point.png" alt="logo point"><span class="point333">127 Points</span></b></p></a></li>
+                    <li><a class="picup samping" href="#"><a href="pickup.html"><img class="pickup1" src="../picture/navbar pick up.png" alt="pickup"></a><a href="point.html"><img class="reycle1" src="../picture/navbar reycle.png" alt="reycle"></a></a></li>
+                    <li><a class="tagihan samping" href="#"><a href="voucher.html"><img class="tagihan1" src="../picture/navbar tagihan sampah.png" alt="Tagihan Sampah"></a><a href="laporan.html"><img src="../picture/navbar report.png" alt="report" class="report1"></a></a></li>
+                    <li><a class="another" href="login.html">Another Account</a></li>
+                    <li><a class="another1" href="login.html">Loght Out</a></li>
                 </ul>
             </nav>
             <button class="toggle-sidebar"  id="toggle-sidebar">
@@ -42,23 +43,25 @@
             </button>
             <section class="container">
                 <section class="box">    
-                    <p class="bsm "><a class="bsm1" href="#">BSM</a></P>
-                    <P class="BSM "><a class="BSM1" href="#">Buang Sampah mudah</a></P>
+                    <p class="bsm "><a class="bsm1" href="Beranda.html">BSM</a></P>
+                        <P class="BSM "><a class="BSM1" href="Beranda.html">Buang Sampah mudah</a></P>
                 </section>
-                
-                <nav class="u ">
-                    <ul class="p">
-                        <li class="l">
-                            <a href="#" class="t navbar box1">Tentang   Kami </a>
-                        </li>
-                        <li class="l">
-                            <a href="#" class="l navbar box2">Layanan <span class="rotate">></span></a>
-                        </li>
-                        <li class="l">
-                            <a href="#" class="s navbar box3">Solusi  Kami <span class="rotate">></span></a>
-                        </li>
-                    </ul>
-                </nav>
+                <section class="fixedd">
+                    <nav class="u ">
+                        <ul class="p ">
+                            <li class="l ">
+                                <a href="Beranda.html#tentangkami" class="t navbar box1">Tentang   Kami </a>
+                            </li>
+                            <li class="l">
+                                <a href="Beranda.html#pickup" class="l navbar box2">Layanan <span class="rotate">></span></a>
+                            </li>
+                            <li class="l">
+                                <a href="laporan.html" class="s navbar box3">Solusi  Kami <span class="rotate">></span></a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </section>
             </section>
             <script src="../js/humberger.js"></script>
         </section>
@@ -94,7 +97,7 @@
         <section class="sampahanorganik222">
             <img class="gambarsampahanorganik" src="../picture/sampah anorganik.png" alt="sampah anorganik">
             <section class="pilih222">
-                <a class="hilanggg" href=""><p class="pilih555">Pilih</p></a>    
+                <a class="hilanggg" href="sampahanorganik.html"><p class="pilih555">Pilih</p></a>    
             </section>
             <p class="sampahanorganik">Sampah Anorganik</p>
         </section>
@@ -144,8 +147,19 @@
                 <article class="form-group">
                     <textarea id="message" name="message" placeholder="Ketikkan pesan tambahan..."></textarea>
                 </article>
-
-                <button class="enterrr" type="submit"><img class="gambarenter" src="../picture/enter.png" alt="enter"><span class="pickupsampah"> Pickup Sampah</span></button>
+                <a href="Beranda.html">
+                    <button class="enterrr" id="pindahkeberanda" type="submit"><img class="gambarenter" src="../picture/enter.png" alt="enter"><span class="pickupsampah"> Pickup Sampah</span></button>
+                </a>
+                <script>
+                    document.getElementById('pindahkeberanda').addEventListener('click', function(event) {
+                        event.preventDefault(); // Mencegah perilaku bawaan tombol submit
+                        window.location.href = 'Beranda.html';
+                    });
+                </script>
             </form>
+            
         </article>
     </section>
+    
+</body>
+</html>
