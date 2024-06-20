@@ -42,6 +42,14 @@ nav{
     border-bottom: 1px solid;
 }
 
+.logo{
+    text-align: center;
+}
+
+.logo h1{
+    font-size: 200%;
+}
+
 nav svg{
     display: none;
 }
@@ -97,6 +105,82 @@ aside ul li{
     list-style-type: none;
     padding: 20px;
 }
+
+.lingkaran {
+    width: 200px; /* Sesuaikan ukuran lingkaran yang diinginkan */
+    height: 200px; /* Sesuaikan ukuran lingkaran yang diinginkan */
+    border-radius: 50%; /* Membuat sudut elemen menjadi lingkaran */
+    overflow: hidden; /* Pastikan gambar tidak melebihi batas lingkaran */
+}
+
+.top-content{
+    display: flex;
+    background-color: #FF9900   ;
+}
+
+.left-content{
+    padding: 70px 100px;
+}
+
+.left-content .images-profil{
+    width: 100%;
+}
+
+.left-content .point{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.left-content .point img{
+    width: 70%;
+    /* border: 1px solid; */
+}
+
+.left-content .point .title h1{
+    font-size: 150%;
+    padding-top: 18%;
+    color: #555555;
+    /* border: 1px solid; */
+    
+}
+
+.left-content .container-text{
+    text-align: center;
+    width: 70%;
+    /* border: 1px solid; */
+}
+
+.left-content .container-text h1{
+    padding-bottom: 20%;
+    font-size: 150%;
+}
+
+.top-button{
+    margin: 60px 150px;
+    
+}
+
+.top-button button{
+    display: flex;
+    width: 100%;
+    padding: 10px 100px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.top-button button img{
+    width: 10%;
+}
+
+.top-button button h1{
+    font-size: 150%;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+
 @media (max-width: 768px){
 
     nav a{
@@ -109,5 +193,10 @@ aside ul li{
     .mid-content{
         display: block;
         margin: 20px;
+    }
+    
+    .top-content{
+        display: block;
+        background-color: #FF9900   ;
     }
 }
