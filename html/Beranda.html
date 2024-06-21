@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
-    <link rel="website icon" type="png" href="../picture/BSM.png">
     <link rel="stylesheet" href="../css/beranda2.css">
     <link rel="stylesheet" href="../css/beranda.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,18 +21,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>            
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kavoon&display=swap" rel="stylesheet">      
-
 </head>
 <body>
     <main>
         <section class="position">
             <nav >
                 <ul class="sidebar">
-                    <li><a class="profil1 " href="PROFIL.html"><img class="lingkaran11 gambarorang1" src="../picture/images.jpg" alt="profil1"><p class="profil2">Chairul</p><p class="profil22">Medan Kota</p><p  class=" point444"><b><img class="gambarcol" src="../picture/logo point.png" alt="logo point"><span class="point333">127 Points</span></b></p></a></li>
-                    <li><a class="picup samping" href="#"><a href="pickup.html"><img class="pickup1" src="../picture/navbar pick up.png" alt="pickup"></a><a href="point.html"><img class="reycle1" src="../picture/navbar reycle.png" alt="reycle"></a></a></li>
-                    <li><a class="tagihan samping" href="#"><a href="voucher.html"><img class="tagihan1" src="../picture/navbar tagihan sampah.png" alt="Tagihan Sampah"></a><a href="laporan.html"><img src="../picture/navbar report.png" alt="report" class="report1"></a></a></li>
-                    <li><a class="another" href="login.html">Another Account</a></li>
-                    <li><a class="another1" href="login.html">Loght Out</a></li>
+                    <li><a class="profil1 " href="#"><img class="lingkaran11 gambarorang1" src="../picture/images.jpg" alt="profil1"><p class="profil2">Chairul</p><p class="profil22">Medan Kota</p><p  class=" point444"><b><img class="gambarcol" src="../picture/logo point.png" alt="logo point"><span class="point333">127 Points</span></b></p></a></li>
+                    <li><a class="picup samping" href="#"><img class="pickup1" src="../picture/navbar pick up.png" alt="pickup"><img class="reycle1" src="../picture/navbar reycle.png" alt="reycle"></a></li>
+                    <li><a class="tagihan samping" href="#"><img class="tagihan1" src="../picture/navbar tagihan sampah.png" alt="Tagihan Sampah"><img src="../picture/navbar report.png" alt="report" class="report1"></a></li>
+                    <li><a class="another" href="#">Another Account</a></li>
+                    <li><a class="another1" href="#">Log Out</a></li>
                 </ul>
             </nav>
             <button class="toggle-sidebar"  id="toggle-sidebar">
@@ -50,15 +48,15 @@
                 </section>
                 
                 <nav class="u ">
-                    <ul class="p ">
-                        <li class="l ">
-                            <a href="Beranda.html#tentangkami" class="t navbar box1">Tentang   Kami </a>
+                    <ul class="p">
+                        <li class="l">
+                            <a href="#" class="t navbar box1">Tentang   Kami </a>
                         </li>
                         <li class="l">
-                            <a href="Beranda.html#pickup" class="l navbar box2">Layanan <span class="rotate">></span></a>
+                            <a href="#pickup" class="l navbar box2">Layanan <span class="rotate">></span></a>
                         </li>
                         <li class="l">
-                            <a href="laporan.html" class="s navbar box3">Solusi  Kami <span class="rotate">></span></a>
+                            <a href="#pickup" class="s navbar box3">Solusi  Kami <span class="rotate">></span></a>
                         </li>
                     </ul>
                 </nav>
@@ -78,7 +76,7 @@
             <img class="gambar1" src="../picture/berandaaaa.png" alt="Sorting Waste">
         </article>
     </section>
-    <section id="tentangkami" class="bodyyy">
+    <section class="bodyyy">
         <section class="main-container">
             <aside class="aside">
                 <p class="quote"><i>"We are the</i></p> 
@@ -92,7 +90,6 @@
                 <section class="olah">
                     <span class="stat">10rb pengguna</span>
                     <span class="stat jjjj">1jt pengolahan sampah</span>
-
                 </section>
             </section>
         </section>
@@ -106,13 +103,14 @@
                             <p class="deskripsi-penjemputan"></p>
                         </article>
                     </a>
-                    <a href="laporan.html" class="tautan-laporan">
+                    <a href="report.html" class="tautan-laporan">
                         <article class="kartu-laporan">
+                            <img src="../picture/navbar report.png" alt="Report" class="ikon-laporan">
                              <img src="../picture/navbar report.png" alt="Report" class="ikon-laporan">
                             <p class="deskripsi-laporan"></p>
                         </article>
                     </a>
-                    <a href="point.html" class="tautan-daur-ulang">
+                    <a href="recycle.html" class="tautan-daur-ulang">
                         <article class="kartu-daur-ulang">
                             <img src="../picture/navbar reycle.png" alt="Recycle" class="ikon-daur-ulang">
                             <p class="deskripsi-daur-ulang"></p>
@@ -184,7 +182,7 @@
         <footer>
             <p class="ikutikami">ikuti kami</p>
             <ul class="sosialmedia111">
-                <li class="sosmed">
+                <li>
                     <a href="#"><img class="sosialmedia " src="../picture/🦆 icon _social linkedin_.png" alt="linkedin"></a>
                     <a href="#"><img class="sosialmedia " src="../picture/🦆 icon _social facebook_.png" alt="facebook"></a>
                     <a href="#"><img class="sosialmedia " src="../picture/🦆 icon _social instagram_.png" alt="instagram"></a>
@@ -192,16 +190,6 @@
             </ul>
             <P class="copyright">&copy;2024 BSM</P>
         </footer>
-    </section> 
-    <script>
-        // Ambil data dari local storage
-        var savedData = localStorage.getItem('userInput');
-        // Gunakan data sesuai kebutuhan, misalnya:
-        if(savedData) {
-            console.log('Data yang disimpan:', savedData);
-            // Lakukan sesuatu dengan data ini, seperti menampilkan di halaman Beranda.html
-        }
-    </script>
-
+</section> 
 </body>
 </html>

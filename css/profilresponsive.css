@@ -114,20 +114,25 @@ aside ul li{
 }
 
 .top-content{
+    width: 100%;
     display: flex;
-    background-color: #FF9900   ;
+    
 }
 
 .left-content{
     padding: 70px 100px;
+    background-color: #FF9900   ;
 }
 
 .left-content .images-profil{
     width: 100%;
+    /* display: block;
+    margin: 0 auto; */
 }
 
 .left-content .point{
     display: flex;
+    justify-content: center;
     padding: 20px 0px;
 }
 
@@ -137,17 +142,19 @@ aside ul li{
 }
 
 .left-content .point .title h1{
+    width: 100%;
     font-size: 150%;
     padding-top: 18%;
+    padding-right: 50px;
     color: #555555;
-    /* border: 1px solid; */
+    /* border: 1px solid;  */
     
 }
 
 .left-content .container-text{
     text-align: center;
-    width: 70%;
-    /* border: 1px solid; */
+    width: 100%;
+    /* border: 1px solid;  */
 }
 
 .left-content .container-text h1{
@@ -155,34 +162,72 @@ aside ul li{
     font-size: 150%;
 }
 
+.right-content{
+    width: 100%;
+    /* border: 1px solid; */
+}
+
 .top-button{
-    margin: 60px 150px;
+    margin: 60px 250px;
     
 }
 
-.top-button button{
+.top-button .images-title{
     display: flex;
     width: 100%;
-    padding: 10px 100px;
+    padding: 10px 160px;
     cursor: pointer;
     background-color: white;
-    border-radius: 10px;
-    justify-content: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    border: 1px solid;
 }
 
-.top-button button img{
-    width: 10%;
+.top-button .images-title img{
+    width: 20px;
 }
 
-.top-button button h1{
+.top-button .images-title h1{
     font-size: 150%;
     text-align: center;
-    padding: 5px 20px;
+    padding: 6px 10px;
 }
 
+.mid-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+    cursor: pointer;
+}
+
+.mid-button .images-title{
+    display: flex;
+    border-radius: 10px;
+    padding: 5px 100px;
+    align-items: center;
+    font-size: 150%;
+    border: 1px solid;
+    margin: 0px 20px;
+    background-color: white;  
+}
+
+.mid-button .images-title #image-ubah-nama  {
+    width: 50px;
+}
+
+.mid-button .images-title #images-panduan{
+    width: 35px;
+}
+
+.mid-button .images-title p#jarak{
+    padding-left: 20px;
+}
+
+@media (min-width: 600px) {
+
+}
 
 @media (max-width: 768px){
-
     nav a{
         display: none;
     }
@@ -190,13 +235,216 @@ aside ul li{
     nav svg{
         display: block;
     }
-    .mid-content{
-        display: block;
-        margin: 20px;
-    }
     
     .top-content{
         display: block;
         background-color: #FF9900   ;
     }
+
+        
+    .left-content{
+        padding: 70px 100px;
+        background-color: #FF9900;
+        height: 350px;
+    }
+
+    .left-content .images-profil{
+        width: 100%;
+        margin-left: 35%;
+    }
+
+    .left-content .point .title h1{
+        width: 100%;
+        font-size: 150%;
+        padding-top: 18%;
+        padding-right: 50px;
+        color: #555555;
+        /* border: 1px solid;  */
+        
+    }
+    
+    .left-content .container-text{
+        text-align: center;
+        width: 100%;
+        /* border: 1px solid;  */
+    }
+    
+    .left-content .container-text h1{
+        padding-bottom: 8%;
+        font-size: 150%;
+    }
+    
+    
+.top-button{
+    margin: 60px 250px;
+    justify-content: center;
+}    
+
+.top-button .images-title{
+    display: flex;
+    width: 106%;
+    padding: 15px ;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid;
+    margin: 0px 0px 0px -5px;
+}
+
+.top-button .images-title img{
+    width: 20px;
+}
+
+    .mid-button{
+        display: block;
+        justify-content: center;
+    }
+
+    .mid-button .images-title{
+        width: 85%;
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 10px 1px ;
+        margin: 10px;
+        font-size: 150%;
+        margin: 50px 0px 20px 50px;
+    }
+
+}
+
+@media (max-width: 857px) {       
+    .mid-button{
+        display: block !important;
+        justify-content: center;
+        margin-left: 80px;
+        padding: 10px 10px;
+    }
+      
+    .mid-button .images-title{
+        margin-bottom: 20px !important;
+        
+      }
+
+    .mid-button #images-title{
+        padding: 0px 17px !important;
+        
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .top-button{
+        margin: 60px 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1002px) {
+   
+.mid-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px;
+} 
+
+.mid-button .images-title{
+    display: flex;
+    border-radius: 10px;
+    padding: 5px 30px !important;
+    align-items: center;
+    font-size: 150%;
+    border: 1px solid;
+    margin: 0px 20px;
+    background-color: white;  
+}
+
+.mid-button .images-title #image-ubah-nama  {
+    width: 50px;
+}
+
+.mid-button .images-title #images-panduan{
+    width: 35px;
+}
+
+.mid-button .images-title p#jarak{
+    padding-left: 20px;
+}
+}
+
+@media (max-width: 1200px){  
+    .top-button .images-title img{
+        width: 20px;
+    }
+      
+    .top-button .images-title{
+        padding: 15px 0px;
+        justify-content: center;
+    }
+    
+    .top-button{
+        margin: 60px 150px;
+    }
+
+    .right-content{
+        background-color: white;
+    }
+
+
+    .top-button .images-title h1{
+        font-size: 120%;
+    }
+    
+    
+.mid-button{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+.mid-button .images-title{
+    display: flex;
+    border-radius: 10px;
+    padding: 5px 50px;
+    align-items: center;
+    font-size: 150%;
+    border: 1px solid;
+    margin: 0px 20px;
+    background-color: white;  
+}
+
+.mid-button .images-title #image-ubah-nama  {
+    width: 50px;
+}
+
+.mid-button .images-title #images-panduan{
+    width: 35px;
+}
+
+.mid-button .images-title p#jarak{
+    padding-left: 20px;
+}
+
+
+.left-content .point{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px 0px;
+}
+
+.left-content .point img{
+    width: 70%;
+    /* border: 1px solid; */
+}
+
+.left-content .point .title h1{
+    width: 100%;
+    font-size: 150%;
+    padding-top: 18%;
+    margin-top: -25px;
+    padding-right: 70px;
+    color: #555555;
+    /* border: 1px solid;  */
+    
+}
 }
