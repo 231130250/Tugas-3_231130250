@@ -790,7 +790,9 @@ footer{
     margin-left: 550px;
     padding: 20px 0px;
 }
-
+li{
+    list-style: none;
+}
 .sosmed{
     list-style: none;
 }
